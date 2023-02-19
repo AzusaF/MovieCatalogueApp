@@ -3,10 +3,10 @@ import { Card } from "react-bootstrap";
 import MovieDetails from "@/components/MovieDetails";
 import PageHeader from "@/components/PageHeader";
 
-// export async function getStaticPaths() { // pre-render the first 7
+// export async function getStaticPaths() { // pre-render the one I introduce
 //    return {
 //      paths: [
-//        { params: { _id: "573a139af29313caabcf0859" } }
+//        { params: { _id: "573a1395f29313caabce2fa3" } }
 //      ],
 //      fallback: false
 //    }
