@@ -1,4 +1,4 @@
-## Movie Catlogue App Frontend
+# Movie Catlogue App Frontend
 Visit here and check out!
 https://movie-catalogue-app-steel.vercel.app/
 
