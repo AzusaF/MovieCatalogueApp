@@ -6,7 +6,7 @@ export default function MainNav() {
      <>
       <Navbar bg="dark" variant="dark" className='fixed-top'>
          <Container>
-            <Navbar.Brand >Azusa Fukuda</Navbar.Brand>
+            <Navbar.Brand >Movie Catalogue App</Navbar.Brand>
             <Nav className="me-auto">
                <Link href="/" passHref legacyBehavior><Nav.Link>Movies</Nav.Link></Link>
                <Link href="/about" passHref legacyBehavior><Nav.Link>About</Nav.Link></Link>
