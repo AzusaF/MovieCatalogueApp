@@ -27,7 +27,7 @@ export default function About(props) {
       <Card.Body>
         <p>
         A developer who loves coding and watching movies, especially French films.　<br/>
-        It is hard to pick a movie, but if I pick one, my favorite should be <Link href={"/movies/" + props.movie.title} passHref legacyBehavior>&quot;Bonnie and Clyde&quot;</Link> because it is influenced by European films, especially French films. In fact, it was planned to be directed by a French director.
+        It is hard to pick a movie, but if I name one, my favorite should be <Link href={"/movies/" + props.movie.title} passHref legacyBehavior>&quot;Bonnie and Clyde&quot;</Link> because it is influenced by European films, especially French films. In fact, it was planned to be directed by a French director.
         </p>
       </Card.Body>
       <MovieDetails movie={props.movie} />
