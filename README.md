@@ -1,5 +1,6 @@
 # Movie Catlogue App Frontend
-Visit here and check out!
+## About
+This is the frontend app for Movie Catalogue App. Visit here and check out!  
 https://movie-catalogue-app-steel.vercel.app/
 
 ## Run the App Locally
