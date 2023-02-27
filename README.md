@@ -3,6 +3,8 @@
 This is the frontend app for Movie Catalogue App. Visit here and check out!  
 https://movie-catalogue-app-steel.vercel.app/
 
+## Key Features
+
 ## Run the App Locally
 
 First, run the development server:
