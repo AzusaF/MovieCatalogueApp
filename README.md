@@ -5,6 +5,19 @@ https://movie-catalogue-app-steel.vercel.app/
 
 ## Key Features
 
+
+## Main Frameworks/Libraries used
+ 
+
+## Try the app
+[https://movie-catalogue-app-steel.vercel.app/](https://movie-catalogue-app-steel.vercel.app/
+)
+
+https://github.com/AzusaF/MovieCatalogueApp/assets/95828247/d9a4e039-4dc7-4e31-9623-fd588da1e5b0
+
+
+--
+
 ## Run the App Locally
 
 First, run the development server:
