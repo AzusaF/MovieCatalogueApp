@@ -1,11 +1,4 @@
-/*********************************************************************************
-* WEB422 – Assignment 3
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy.
-* No part of this assignment has been copied manually or electronically from any other source
-* (including web sites) or distributed to other students. *
-* Name: __Azusa Fukuda__ Student ID: ____109697219____ Date: __Feb./15/2023____ *
-*
-********************************************************************************/
+
 import MovieDetails from "@/components/MovieDetails"
 import PageHeader from "@/components/PageHeader"
 import { useEffect, useState } from "react"
@@ -15,7 +8,7 @@ import  useSWR  from "swr"
 export default function Home() {
   const [page, setPage] = useState(1);
   const [pageData, setPageData] = useState([]);
-  const { data, error } = useSWR(`https://moviesapi.cyclic.app/api/movies?page=${page}&perPage=10`);
+  const { data, error } = useSWR(`https://moviesapi-kt9c.onrender.com/api/movies?page=${page}&perPage=10`);
   
   useEffect(() => { if (data) {
     setPageData(data); }
