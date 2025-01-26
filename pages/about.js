@@ -13,7 +13,7 @@ import PageHeader from "@/components/PageHeader";
 // }
 
 export async function getStaticProps() {
-   const res = await fetch(`https://moviesapi.cyclic.app/api/movies/573a1395f29313caabce2fa3`);
+   const res = await fetch(`https://moviesapi-kt9c.onrender.com/api/movies/573a1395f29313caabce2fa3`);
    const data = await res.json()
  
    return { props: { movie: data } }
