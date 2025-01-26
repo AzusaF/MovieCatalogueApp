@@ -6,7 +6,7 @@ import  useSWR  from "swr"
 export default function MoviesByTitle() {
    const router = useRouter()
    const { title } = router.query;
-   const { data, error } = useSWR(`https://moviesapi.cyclic.app/api/movies?page=1&perPage=10&title=${title}`);
+   const { data, error } = useSWR(`https://moviesapi-kt9c.onrender.com/api/movies?page=1&perPage=10&title=${title}`);
    if (data == null || data == undefined)
       return (
       <>
